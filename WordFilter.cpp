@@ -1,5 +1,5 @@
 #include "WordFilter.h"
 
-WordFilter:: WordFilter(char* word) : Filter(word) {
+WordFilter::WordFilter(char* word) : Filter(word) {
 }
 

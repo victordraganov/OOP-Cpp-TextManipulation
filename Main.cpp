@@ -2,8 +2,7 @@
 #include"FilterChain.h"
 #include<iostream>
 
-int main()
-{
+int main() {
 	cout << "Enter wanted word(max 30 symbols): "; // The Initial filterWord lenght is 20 so you can check that the resize works.
 	char word[30];
 	cin.getline(word, 30);
@@ -26,7 +25,6 @@ int main()
 	chain.AddFilter(a);
 	chain.AddFilter(b);
 	chain.DisplayFilters();*/
-
 
 	//a.FilterAndPrint();
 	system("pause");
